@@ -1,0 +1,6 @@
+{
+  "/api/taladpla/top10/route": "app/api/taladpla/top10/route.js",
+  "/taladthai/page": "app/taladthai/page.js",
+  "/taladpla/page": "app/taladpla/page.js",
+  "/page": "app/page.js"
+}
