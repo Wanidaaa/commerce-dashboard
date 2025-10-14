@@ -12,6 +12,16 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
+    "/shopee/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/shopee/page.js"
+    ],
+    "/api/top10/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/top10/route.js"
+    ],
     "/taladthai/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

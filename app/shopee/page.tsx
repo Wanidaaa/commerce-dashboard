@@ -6,16 +6,16 @@ import ProductCard from "@/components/ProductCard";
 type Product = { name: string; price: number; sold: number; link: string; image: string };
 
 const MOCK: Product[] = [
-  { name: "หน้ากากอนามัย 50 ชิ้น", price: 59, sold: 12800, link: "https://shopee.co.th/", image: "https://image.makewebcdn.com/makeweb/m_1920x0/aJaxp3AYj/DoubleACare/SURGICAL_MASK_3_PLY_50_%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99_2.jpg" },
-  { name: "สายชาร์จ Type-C",        price: 79, sold: 9400,  link: "https://shopee.co.th/", image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MQKJ3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=UmJ0VnhkMm9DbDhxclVzaXlNbnVRUWtuVHYzMERCZURia3c5SzJFOTlPaEdPNk5TZkUyRjVjbmZlVkFhb3BFYmQzOU5RUU0yVjg1T0JNOVNCMVhGU0E" },
-  { name: "เคสมือถือ iPhone",        price: 129, sold: 8700, link: "https://shopee.co.th/", image: "https://cdn5.425degree.com/media/catalog/product/cache/16f787c0803d70727d149195af4aa9dd/i/p/ip13p_fus_mgnt_mc_main1.jpg" },
-  { name: "ฟิล์มกระจก",              price: 49, sold: 7600,  link: "https://shopee.co.th/", image: "https://caseduck.com/wp-content/uploads/2024/02/TGFF-Matte-04-1-1.jpg" },
-  { name: "ถุงขยะหอม 60x90",         price: 89, sold: 6900,  link: "https://shopee.co.th/", image: "https://championbags.com/wp-content/uploads/2021/05/%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99-%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89.jpg" },
-  { name: "น้ำหอมปรับอากาศ",        price: 119, sold: 5400, link: "https://shopee.co.th/", image: "https://www.kaceebest.com/media/cache/77/f1/77f1e2b8190a2002e4269dde292d313b.webp" },
-  { name: "แชมพูสุนัข",              price: 149, sold: 4200, link: "https://shopee.co.th/", image: "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/32/88/8850292515032/8850292515032_3.jpg" },
-  { name: "ที่ชาร์จเร็ว 20W",        price: 199, sold: 3900, link: "https://shopee.co.th/", image: "https://img.lazcdn.com/g/ff/kf/Sa6836fce5b1647bd99dc1f74af7de67d4.jpg_720x720q80.jpg" },
-  { name: "หูฟังมีไมค์",             price: 159, sold: 3600, link: "https://shopee.co.th/", image: "https://www.pisentech.co.th/cdn/shop/files/47.png?v=1734666259&width=2048" },
-  { name: "ปลั๊กพ่วง 4 ช่อง",        price: 229, sold: 3300, link: "https://shopee.co.th/", image: "https://www.exogro.co.th/wp-content/uploads/2024/06/T561-0054_0.jpg" },
+  { name: "พาวเวอร์แบงค์", price: 169, sold: 4107, link: "https://shopee.co.th/top_products?catId=TH_BITL0_1%3Atop_sold", image: "https://image.makewebeasy.net/makeweb/0/N9DkzEWd3/DefaultData/%E0%B8%9E%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B9%8C_ZMI_Powerbank_P17_.webp" },
+  { name: "เสื้อในชุดชั้นใน",        price: 79, sold: 12567,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_7%3Atop_sold", image: "https://getzhop.com/wp-content/uploads/2024/03/FSCGBMNN00001-1-10.jpg" },
+  { name: "เล็บปลอมกันน้ำ",        price: 2, sold: 9528, link: "https://shopee.co.th/top_products?catId=TH_BITL0_156%3Atop_sold", image: "https://img.lazcdn.com/g/p/c0b59e578be89e0ac22f2848cdddde34.jpg_720x720q80.jpg" },
+  { name: "แหนมสแตนเลส",              price: 70, sold: 17606,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_7754%3Atop_sold", image: "https://nakhonrangnok.com/image/data/Stainless/58.png" },
+  { name: "กางเกงขาสั้น ผู้ชาย",         price: 169, sold: 9997,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_14%3Atop_sold", image: "https://shop-image.readyplanet.com/aBVuw674GvcjubUChFRxHH3oA0g=/df307e9cb4d04b8c9fa247da2ad088de" },
+  { name: "บราปีกนก",        price: 99, sold: 3288, link: "https://shopee.co.th/top_products?catId=TH_BITL0_91%3Atop_sold", image: "https://th-test-11.slatic.net/p/993a15d85c42f6569d5d92aea2e3f28b.jpg" },
+  { name: "สายชาร์จ Vivo",              price: 59, sold: 20565, link: "https://shopee.co.th/top_products?catId=TH_BITL0_718%3Atop_sold", image: "https://down-th.img.susercontent.com/file/th-11134207-7rasd-m6u0udhsv7zj0f" },
+  { name: "ลิป Sasi",        price: 436, sold: 10266, link: "https://shopee.co.th/top_products?catId=TH_BITL0_798%3Atop_sold", image: "https://down-th.img.susercontent.com/file/sg-11134201-7ra0p-m4yhysaqxpjr2e_tn.webp" },
+  { name: "กางเกง Boxer",             price: 78, sold: 7638, link: "https://shopee.co.th/top_products?catId=TH_BITL0_131%3Atop_sold", image: "https://inwfile.com/s-cg/ijngz5.jpg" },
+  { name: "น้ำหอมรถยนต์",        price: 196, sold: 9142, link: "https://shopee.co.th/top_products?catId=TH_BITL0_1784%3Atop_sold", image: "https://www.phruksaspa.co.th/wp-content/uploads/2022/04/Hanging-Air-Refresher-8-ml.-1.jpg" },
 ];
 
 export default function ShopeePage() {

@@ -42,12 +42,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     />
   </div>
 </div>
+<footer className="bg-dark text-white text-center py-3 mt-5">
+  <div className="container">
+    <p className="mb-0">© 2025 Commerce Dashboard | All rights reserved.</p>
+  </div>
+</footer>
 
-{/* footer (จะมีหรือไม่มีก็ได้) */}
-
-        {/* <footer className="bg-dark text-white-50 py-3 mt-5">
-  <div className="container small">Prototype • Bootstrap 5</div>
-</footer> */}
       </body>
     </html>
   );
