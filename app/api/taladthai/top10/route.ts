@@ -3,16 +3,16 @@ export const dynamic = "force-dynamic";
 type Product = { name: string; price: number; sold: number; link: string; image: string };
 
 const MOCK_TALADTHAI: Product[] = [
-  { name: "มะนาวเบอร์ 400ลูก /กระสอบ", price: 500, sold: 520, link: "https://talaadthai.com/", image: "https://fth0.com/uppic/73102726/news/73102726_0_20210507-163421.jpg" },
-  { name: "ถั่วฝักยาว",     price: 30, sold: 480, link: "https://talaadthai.com/", image: "https://morkeaw.net/wp-content/uploads/2020/07/%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9D%E0%B8%B1%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7.jpg" },
-  { name: "ผักชีไทย",        price: 20, sold: 450, link: "https://talaadthai.com/", image: "https://res.cloudinary.com/freshketimage001/image/upload/c_fit,w_800,h_800,q_auto,f_auto/ccqxc8ovkvofh0eghv4t" },
-  { name: "มะเขือเปราะ",          price: 42, sold: 430, link: "https://talaadthai.com/", image: "https://hdmall.co.th/blog/wp-content/uploads/2024/03/%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0-Thai-egg-plant-scaled.jpg" },
-  { name: "ต้นหอม",   price: 35, sold: 410, link: "https://talaadthai.com/", image: "https://www.simummuangmarket.com/uploads/image-1548251382804.jpg" },
-  { name: "คึ่นช่าย",             price: 55, sold: 405, link: "https://talaadthai.com/", image: "https://www.simummuangmarket.com/uploads/image-1547071811259.jpg" },
-  { name: "พริกขี้หนูแดง",       price: 80, sold: 380, link: "https://talaadthai.com/", image: "https://thethaiger.com/th/wp-content/uploads/2023/10/Screenshot_26.jpg" },
-  { name: "ทุเรียนหมอนทอง",             price: 30, sold: 360, link: "https://talaadthai.com/", image: "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/26/02/0255526/0255526-20251002111643-.jpg" },
-  { name: "มะนาว 500ลูก / กระสอบ",          price: 26, sold: 330, link: "https://talaadthai.com/", image: "https://fth0.com/uppic/73102726/news/73102726_0_20210507-163421.jpg" },
-  { name: "พริกขี้หนูสวน",           price: 45, sold: 310, link: "https://talaadthai.com/", image: "https://www.simummuangonline.com/files/product/original/2152a028cc4ad2e7f8409f6019e83c9a.jpg" },
+  { name: "มะเขือเทศท้อแดง", price: 15, sold: 3512, link: "https://talaadthai.com/", image: "https://fth0.com/uppic/73102726/news/73102726_0_20210507-163421.jpg" },
+  { name: "หมูบด",     price: 110, sold: 4465, link: "https://talaadthai.com/", image: "https://res.cloudinary.com/freshketimage001/image/upload/v1638176741/r4qnjqpwagniotztiid8.jpg" },
+  { name: "มะเขือเทศสีดา",        price: 20, sold: 5642, link: "https://talaadthai.com/", image: "https://www.simummuangmarket.com/uploads/image-1549402027635.jpg" },
+  { name: "มะเขือเทศราชินี",          price: 60, sold: 2658, link: "https://talaadthai.com/", image: "https://www.simummuangmarket.com/uploads/image-1549402064825.jpg" },
+  { name: "มะนาวกระสอบ",   price: 600, sold: 1954, link: "https://talaadthai.com/", image: "https://res.cloudinary.com/freshketimage001/image/upload/v1580448694/f7v79shjphubrkjrozqq.png" },
+  { name: "สาระแหน่",             price: 100, sold: 5188, link: "https://talaadthai.com/", image: "https://medthai.com/wp-content/uploads/2013/07/Kitchen-Mint-1.jpg" },
+  { name: "ผักชีฝรั่ง",       price: 60, sold: 3517, link: "https://talaadthai.com/", image: "https://www.panmai.com/wp-content/uploads/2021/10/%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%8A%E0%B8%B5%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.jpg" },
+  { name: "กวางตุ้ง",             price: 10, sold: 4232, link: "https://talaadthai.com/", image: "https://skm.ssru.ac.th/useruploads/images/20220307/20220307164666378869.jpg" },
+  { name: "มะระจีน",          price: 30, sold: 1236, link: "https://talaadthai.com/", image: "https://www.simummuangmarket.com/uploads/image-1554812627192.jpg" },
+  { name: "พริกขี้หนูสวน",           price: 45, sold: 5155, link: "https://talaadthai.com/", image: "https://www.simummuangonline.com/files/product/original/2152a028cc4ad2e7f8409f6019e83c9a.jpg" },
 ];
 
 export async function GET() {
