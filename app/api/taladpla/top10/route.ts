@@ -3,16 +3,16 @@ export const dynamic = "force-dynamic";
 type Product = { name: string; price: number; sold: number; link: string; image: string };
 
 const MOCK_TALADPLA: Product[] = [
-  { name: "ปลาทูแม่กลอง 1 กก.",        price: 180, sold: 620, link: "https://talaadthai.com/products?market=17", image: "https://www.matichon.co.th/wp-content/uploads/2023/08/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%B9%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%81%E0%B8%A5%E0%B8%AD%E0%B8%87-01.jpg" },
-  { name: "ปลาหมึกกล้วย 1 กก.",        price: 280, sold: 540, link: "https://talaadthai.com/products?market=17", image: "https://image.makewebcdn.com/makeweb/m_1920x0/2nvp7NtPx/DefaultData/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%A2_1.jpg" },
-  { name: "ปลาแซลมอนส่วนท้อง 500 กรัม", price: 220, sold: 510, link: "https://talaadthai.com/products?market=17", image: "https://www.เพื่อนแท้ร้านอาหาร.com/wp-content/uploads/2021/11/%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%992-scaled.jpg" },
-  { name: "กุ้งขาวกล่อง 1 กก.",         price: 320, sold: 490, link: "https://talaadthai.com/products?market=17", image: "https://thaitechno.net/uploadedimages/knowledge/images/km43862_20140909133306_904417831_fullsize.jpg" },
-  { name: "หอยแมลงภู่ 1 กก.",          price: 95,  sold: 470, link: "https://talaadthai.com/products?market=17", image: "https://www.simummuangonline.com/files/product/original/5b91e9f3de76caab788b288316dec0e4.jpg" },
-  { name: "ปลากะพงขาว 1 กก.",          price: 210, sold: 450, link: "https://talaadthai.com/products?market=17", image: "https://phuketjournal.com/wp-content/uploads/2021/04/asian-seabass-1170x550.jpg" },
-  { name: "ปลาช่อน 1 กก.",             price: 150, sold: 430, link: "https://talaadthai.com/products?market=17", image: "https://www.simummuangmarket.com/uploads/image-1549405687563.JPG" },
-  { name: "ปลานิล 1 กก.",              price: 120, sold: 410, link: "https://talaadthai.com/products?market=17", image: "https://www.simummuangmarket.com/uploads/image-1549555689642.jpg" },
-  { name: "ปลาทราย 1 กก.",             price: 140, sold: 390, link: "https://talaadthai.com/products?market=17", image: "https://img-global.cpcdn.com/seasonal_ingredients/e85e92d5a56fe9ce/680x340cq80/photo.jpg" },
-  { name: "ปูม้า 1 กก.",               price: 350, sold: 360, link: "https://talaadthai.com/products?market=17", image: "https://www.ppnseafoodwishing.com/wp-content/uploads/2021/11/%E0%B8%9B%E0%B8%B9-01.jpg" },
+  { name: "ปลาไนเบอร์ใหญ่",        price: 35, sold: 3251, link: "https://talaadthai.com/products?market=17", image: "https://files.agrinewsthai.com/2024/06/11188205_829532073751054_1751743583022527023_n.jpg" },
+  { name: "ปลาแขยง",        price: 85, sold: 3244, link: "https://talaadthai.com/products?market=17", image: "https://kingkarnk288.wordpress.com/wp-content/uploads/2015/08/e0b89be0b8a5e0b8b2e0b981e0b882e0b8a2e0b887.jpg" },
+  { name: "ปลายี่สก", price: 35, sold: 1486, link: "https://talaadthai.com/products?market=17", image: "https://files.agrinewsthai.com/2024/08/messageImage_1720693406009-%E0%B9%81%E0%B8%81%E0%B9%89.jpg" },
+  { name: "ปลาสวาย",         price: 35, sold: 3985, link: "https://talaadthai.com/products?market=17", image: "https://static.wixstatic.com/media/62c431_94319a4cde55422686a4c45960181b56~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg" },
+  { name: "ปลาสลิด",          price: 35,  sold: 5423, link: "https://talaadthai.com/products?market=17", image: "https://baac-farmersmarket.com/wp-content/uploads/2025/06/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%A5%E0%B8%B4%E0%B8%942.jpg" },
+  { name: "ปลาสร้อย",          price: 35, sold: 3544, link: "https://talaadthai.com/products?market=17", image: "https://kingkarnk288.wordpress.com/wp-content/uploads/2015/08/e0b89be0b8a5e0b8b2e0b8aae0b8a3e0b989e0b8ade0b8a2.jpg" },
+  { name: "ปลาไหล",             price: 260, sold: 3214, link: "https://talaadthai.com/products?market=17", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpBRPf0E0AeK9J1TaGZbMJI3W0hqPe_wz-pQ&s" },
+  { name: "ปลานวลจันทร์",              price: 35, sold: 3241, link: "https://talaadthai.com/products?market=17", image: "https://upload.wikimedia.org/wikipedia/commons/1/19/Cirrhinus_cirrhosus_from_the_Nandu_River.jpg" },
+  { name: "ปลาม้า",             price: 280, sold: 3214, link: "https://talaadthai.com/products?market=17", image: "https://www.siamfishing.com/_pictures/content/upload2008/200802/12033901813.jpg" },
+  { name: "ปลาแรด",               price: 95, sold: 3127, link: "https://talaadthai.com/products?market=17", image: "https://www.industry.in.th/uploadedimages/c1/Product_47949_802772365_fullsize.jpg" },
 ];
 
 export async function GET() {
