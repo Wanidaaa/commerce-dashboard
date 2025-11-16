@@ -6,16 +6,16 @@ import ProductCard from "@/components/ProductCard";
 type Product = { name: string; price: number; sold: number; link: string; image: string };
 
 const MOCK: Product[] = [
-  { name: "พาวเวอร์แบงค์", price: 299, sold: 3816, link: "https://shopee.co.th/top_products?catId=TH_BITL0_1%3Atop_sold", image: "https://image.makewebeasy.net/makeweb/0/N9DkzEWd3/DefaultData/%E0%B8%9E%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B9%8C_ZMI_Powerbank_P17_.webp" },
-  { name: "เสื้อในชุดชั้นใน",        price: 139, sold: 12567,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_7%3Atop_sold", image: "https://getzhop.com/wp-content/uploads/2024/03/FSCGBMNN00001-1-10.jpg" },
-  { name: "หน้ากากอนามัย",        price: 79, sold: 10626, link: "https://shopee.co.th/top_products?catId=TH_BITL0_156%3Atop_sold", image: "https://www.drhygiene.co.th/wp-content/uploads/2024/05/1-4.jpg" },
-  { name: "กางเกงในไร้ขอบ",              price: 36, sold: 6592,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_7754%3Atop_sold", image: "https://image.makewebcdn.com/makeweb/m_1920x0/o9wFAPelf/BUNA01/%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B9%83%E0%B8%9912.jpg" },
-  { name: "ทิชชู่เปียก",         price: 38, sold: 21682,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_14%3Atop_sold", image: "https://inwfile.com/s-cj/4lwm6x.jpg" },
-  { name: "บราปีกนก",        price: 99, sold: 3288, link: "https://shopee.co.th/top_products?catId=TH_BITL0_91%3Atop_sold", image: "https://th-test-11.slatic.net/p/993a15d85c42f6569d5d92aea2e3f28b.jpg" },
-  { name: "ชุดนอน",              price: 59, sold: 5219, link: "https://shopee.co.th/top_products?catId=TH_BITL0_718%3Atop_sold", image: "https://media.allonline.7eleven.co.th/pdmain/647275-00-lingerie-sleepwear-bra-studio.jpg" },
-  { name: "ลิป Sasi",        price: 436, sold: 10266, link: "https://shopee.co.th/top_products?catId=TH_BITL0_798%3Atop_sold", image: "https://down-th.img.susercontent.com/file/sg-11134201-7ra0p-m4yhysaqxpjr2e_tn.webp" },
-  { name: "อายไลน์เนอร์กันน้ำ",             price: 25, sold: 10102, link: "https://shopee.co.th/top_products?catId=TH_BITL0_131%3Atop_sold", image: "https://cf.shopee.co.th/file/cn-11134207-7ras8-m17tdr4wbrvv4e" },
+  { name: "สครับผิว", price: 219, sold: 19650, link: "https://shopee.co.th/top_products?catId=TH_BITL0_1%3Atop_sold", image: "https://img.wongnai.com/p/1920x0/2023/03/26/c47dddaee36d464780cde0f634bccf35.jpg" },
+  { name: "ราวตากผ้า",        price: 103, sold: 7897,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_7%3Atop_sold", image: "https://down-th.img.susercontent.com/file/th-11134207-7rasl-m0oheld1a5ruc0_tn.webp" },
   { name: "ดินสอเขียนคิ้ว",        price: 196, sold: 4921, link: "https://shopee.co.th/top_products?catId=TH_BITL0_1784%3Atop_sold", image: "https://www.nongchatmakeup.com/wp-content/uploads/2024/01/pro_makeup_flat_eyebrow_pencil_03sandstone_brown_19__1.jpg" },
+  { name: "อายไลน์เนอร์กันน้ำ",             price: 25, sold: 10102, link: "https://shopee.co.th/top_products?catId=TH_BITL0_131%3Atop_sold", image: "https://cf.shopee.co.th/file/cn-11134207-7ras8-m17tdr4wbrvv4e" },
+  { name: "ร่มแบบพับ",         price: 49, sold: 4588,  link: "https://shopee.co.th/top_products?catId=TH_BITL0_14%3Atop_sold", image: "https://down-th.img.susercontent.com/file/6011b6e69355ef0158c561688049b8f7" },
+  { name: "ถุงยางอนามัย",        price: 39, sold: 7659, link: "https://shopee.co.th/top_products?catId=TH_BITL0_91%3Atop_sold", image: "https://img.lazcdn.com/g/p/2c556f838b7c538388cb20f935a6b60e.jpg_720x720q80.jpg" },
+  { name: "ชุดนอน",              price: 59, sold: 5219, link: "https://shopee.co.th/top_products?catId=TH_BITL0_718%3Atop_sold", image: "https://media.allonline.7eleven.co.th/pdmain/647275-00-lingerie-sleepwear-bra-studio.jpg" },
+  { name: "แหนบสแตนเลส",        price: 69, sold: 17606, link: "https://shopee.co.th/top_products?catId=TH_BITL0_798%3Atop_sold", image: "https://inwfile.com/s-ff/wk8v59.jpg" },
+  { name: "กางเกง Boxer",             price: 78, sold: 7638, link: "https://shopee.co.th/top_products?catId=TH_BITL0_131%3Atop_sold", image: "https://down-th.img.susercontent.com/file/9b8dc7e99bb04fc98608f78a895fbabc" },
+  { name: "กางเกงขาสั้น ผู้ชาย",        price: 147, sold: 9997, link: "https://shopee.co.th/top_products?catId=TH_BITL0_1784%3Atop_sold", image: "https://down-th.img.susercontent.com/file/b23e06d1eeb2b589b07a4852ba3a9912" },
 ];
 
 export default function ShopeePage() {
